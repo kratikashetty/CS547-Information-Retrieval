@@ -29,8 +29,7 @@ We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-
 
 ### Essay Set Distribution 
 
-A ventilator must consider lung attributes Capacitance (C) and Resistance(R) to predict the optimal pressure.
-
+Essays are not equally distributed in the dataset. Different essay sets have different number of essays available.
 R can be thought of as the resistance observed while blowing up a balloon through a straw. Higher R will have more resistance and it will be harder to let air inside.
 <p align="middle">
 <img src="Images/r_explained.png" width="440" height="400"> 
