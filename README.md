@@ -29,7 +29,15 @@ We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-
 
 ### Essay Set Distribution 
 
-Essays are not equally distributed in the dataset. Different essay sets have different number of essays available.
+Essays are not equally distributed in the dataset. Different essay sets have different number of essays available. 
+
+The scores for each prompt have different scoring criteria. Minimum and Maximum score that can be graded for each essay is different.
+
+<p align="middle">
+  <img src="Images/essay_boxplot.png" width="450" />
+  <img src="Images/essay_pie.png" width="450" /> 
+</p>
+
 R can be thought of as the resistance observed while blowing up a balloon through a straw. Higher R will have more resistance and it will be harder to let air inside.
 <p align="middle">
 <img src="Images/r_explained.png" width="440" height="400"> 
