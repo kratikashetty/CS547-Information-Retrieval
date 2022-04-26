@@ -43,8 +43,8 @@ The scores for each prompt have different scoring criteria. Minimum and Maximum 
 
 Since we are using a Dataset from a kaggle competition, we were unable to to get the true Y values for the test data. We split the trainng data as follows to get the training and test data - 
 
-**Training Data** 80% of the Data
-**Test Data** 20% of the Data
+**Training Data** 80% of the Data.
+**Test Data** 20% of the Data.
 
 
 ### Embedding + LSTM
