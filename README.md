@@ -38,49 +38,6 @@ The scores for each prompt have different scoring criteria. Minimum and Maximum 
   <img src="Images/essay_pie.png" width="450" /> 
 </p>
 
-R can be thought of as the resistance observed while blowing up a balloon through a straw. Higher R will have more resistance and it will be harder to let air inside.
-<p align="middle">
-<img src="Images/r_explained.png" width="440" height="400"> 
-</p>
-C can be thought of as the thickness of the balloon’s latex, the one with higher C will have thinner latex and it would be easier to let air in.
-<p align="middle">
-<img src="Images/c_explained.png" width="440" height="400"> 
-</p>
-
-### Analysis of pressure, u_in and u_out with respect to time_step
-
-<p align="middle">
-  <img src="Images/pressure_time.png" width="450" />
-  <img src="Images/uin_time.png" width="450" /> 
-  <img src="Images/uout_time.png" width="450" />
-</p>
-
-### Plot of pressure, u_in and u_out for breath_id = 1
-
-It is evident from below that u_out is zero during the inhalation and 1 during the exhalation.
-<p align="middle">
-  <img src="Images/breath_id_1_plot.png" width="500" />
-</p>
-
-### Distribuition of Pressure
-
-Variation of pressure is more during the inhalation phase of the breath.
-<p align="middle">
-  <img src="Images/pressure_one_cycle.png" width="450" />
-  <img src="Images/pressure_inhalation.png" width="450" /> 
-</p>
-
-### R and C values present in the Dataset
-
-There are three unique values for R and C each.
-<p align="middle">
-  <img src="Images/rc_unique.png" width="450" />
-</p>
-
-Plot of pressure across different combination of R & C for different Breath IDs is shown below. We can infer from below that pressure is dependent on the values of R and C.
-<p align="middle">
-  <img src="Images/pressure_rc.png" width="450" /> 
-</p>
 
 ## Feature Engineering
 
