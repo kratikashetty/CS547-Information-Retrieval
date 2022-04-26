@@ -27,7 +27,7 @@ We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-
 
 ## Exploratory Data Analysis
 
-### R & C Attributes
+### Essay Set Distribution 
 
 A ventilator must consider lung attributes Capacitance (C) and Resistance(R) to predict the optimal pressure.
 
