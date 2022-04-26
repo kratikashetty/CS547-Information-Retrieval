@@ -39,28 +39,15 @@ The scores for each prompt have different scoring criteria. Minimum and Maximum 
 </p>
 
 
-## Feature Engineering
-
-Pressure is a function of past valve settings: p[i] = f(u_in[:i]). But u_in is not an independent variable, u_in is the output of a controller, and the inputs of the controller are the past measured pressures: u_in[i] = g(p[:i+1]). Hence in order to get data from previous time steps data was preprocessed as follows. Following features were added - 
-
- * New Lag features for u_in
- * Exponential Moving Mean, Standard Deviation and correlation of u_in for each breath ID 
- * Rolling Mean, Standard Deviation and Maximum of u_in for each breath. Here the size of the moving window is 10
- * Expanding Mean, Standard Deviation and Maximum of u_in for each breath ID where size of minimum period is 2
- * R and C after converting into indicator variables
-
-
-
 ## Implementation
 
 Since we are using a Dataset from a kaggle competition, we were unable to to get the true Y values for the test data. We split the trainng data as follows to get the training and test data - 
 
-**Training Data** 70% of the Total Breath IDs = 52,815 Breath IDs
+**Training Data** 80% of the Data
+**Test Data** 20% of the Data
 
-**Test Data** 30% of the Total Breath IDs = 22,635 Breath IDs
 
-
-### XGBOOST Using XGBRegressor
+### Embedding + LSTM
 
 XGBoost was first considered for modeling the training data since it can be used for regression predictive modeling. We also used repeated 5-fold cross-validation to evaluate and pressure was found out by averaging pressure across multiple runs. After the training data fit into the XGBoost model, the result is generated shown below:
 
@@ -77,7 +64,7 @@ XGBoost was first considered for modeling the training data since it can be used
 
 Here top 3 features fO, f2, f5 corresponds to id, time_step and u_out.
 
-### Bi-LSTM Model 
+### BERT Model
 
 Stacked Bi-LSTMs Model was implemented in Keras. Bidirectional Long Short-Term Memory (Bi-LSTM) networks was implemented as they are capable of learning order dependence in sequence prediction problems. LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
 
