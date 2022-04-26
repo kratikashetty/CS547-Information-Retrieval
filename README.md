@@ -23,6 +23,9 @@ We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-
 | Column |Description|
 |-------|--------|
 | essay_set | 1-8, an id for each set of essays |
+| essay | The ascii text of a student's response |
+| rater1 domain1 | Rater 1's domain 1 score |
+| rater2 domain2 | Rater 2's domain 1 score |
 | domain1_score |  Resolved score between the raters; all essays have this | 
 
 ## Exploratory Data Analysis
@@ -41,7 +44,7 @@ The scores for each prompt have different scoring criteria. Minimum and Maximum 
 
 ## Implementation
 
-Since we are using a Dataset from a kaggle competition, we were unable to to get the true Y values for the test data. We split the trainng data as follows to get the training and test data - 
+Since we are using a Dataset from a kaggle competition, we were unable to to get the true Y values for the test data. We split the trainng data as follows to get the training and test data.
 
 **Training Data** 80% of the Data.
 **Test Data** 20% of the Data.
@@ -66,7 +69,7 @@ Here top 3 features fO, f2, f5 corresponds to id, time_step and u_out.
 
 ### BERT Model
 
-Stacked Bi-LSTMs Model was implemented in Keras. Bidirectional Long Short-Term Memory (Bi-LSTM) networks was implemented as they are capable of learning order dependence in sequence prediction problems. LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
+T
 
 5-fold cross validation was performed and avaerage pressure was calculated after 5 runs.
 
