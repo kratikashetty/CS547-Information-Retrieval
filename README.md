@@ -7,9 +7,10 @@ Vedhas Vinjamuri, Kratika Shetty
 ## Background and Motivation
 In any language exam, the ability to write composition is an essential indicator of academic performance. However, assessing these essays is a difficult task. The demand for objective and speedy scoring has prompted the development of a tool that can evaluate essays. The use of Natural Language Processing (NLP) and Deep Learning techniques in Automated Essay Scoring (AES) systems would help overcome this obstacle.
 
+There has been a substantial amount of study on the topic of automated essay scoring. One of the early publications uses logistic regression and SVMs on essay representations to get a decision boundary. These models treat the problem as a multi-class classification task. Due to the recent developments in deep learning models and word embedding techniques, there has been significant improvement in the performance of Automated Essay Scoring tools.
 ## Dataset
-### Ventilator Data
-The ventilator data used in this competition was provided by [Kaggle](https://www.kaggle.com/c/ventilator-pressure-prediction/data) and was produced using a modified [open-source ventilator](https://www.peoplesvent.org/en/latest/) connected to an [artificial bellows test lung](https://www.ingmarmed.com/product/quicklung/) via a respiratory circuit.
+### The Hewlett Foundation Data
+We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-aes/data)
 
 ### Columns
 
