@@ -13,6 +13,11 @@ There has been a substantial amount of study on the topic of automated essay sco
 ### The Hewlett Foundation Data
 We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-aes/data) Competition conducted by The Hewlett Foundation. There are eight essay sets available for this competition. A single prompt was used to produce each batch of essays. 
 
+<p align="middle">
+  <img src="Images/essay_overview.png" width="450" />
+  <img src="Images/promtps.png" width="450" /> 
+</p>
+
 ### Columns
 
 | Column |Description|
