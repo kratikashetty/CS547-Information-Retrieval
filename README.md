@@ -22,15 +22,8 @@ We used the data available on [Kaggle](https://www.kaggle.com/competitions/asap-
 
 | Column |Description|
 |-------|--------|
-| id | Globally unique time step identifier across an entire file |
-| breath_id | Globally unique time step for breaths | 
-| R | Lung attribute indicating how restricted the airway is (in cmH2O/L/S) |
-| C | Lung attribute indicating how compliant the lung is (in mL/cmH2O). Physically, this is the change in volume per change in pressure |
-| time_step | The actual time stamp | 
-| u_in | The control input for the inspiratory solenoid valve. Ranges from 0 to 100 | 
-| u_out | The control input for the exploratory solenoid valve. Either 0 or 1 |
-| pressure | The airway pressure measured in the respiratory circuit, measured in cmH2O |
- 
+| essay_set | 1-8, an id for each set of essays |
+| domain1_score |  Resolved score between the raters; all essays have this | 
 
 ## Exploratory Data Analysis
 
