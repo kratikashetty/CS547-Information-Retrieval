@@ -56,6 +56,13 @@ The LSTM method utilizes Word2Vec to convert the essays into word embeddings. Th
   <img src="LSTM/Screenshots/Model Summary.png" width="450" /> 
 </p>
 
+This model is then trained using a 5-fold Cross-Validation technique, and the average Kappa is calculated.
+
+The results for this procedure are seen below:
+<p align="middle">
+  <img src="LSTM/Screenshots/Final Result.png" width="450" />
+</p>
+
 ### BERT Model
 
 A Transformer based BERT base model followed by two fully connected feed forward layers and a final dense layer was implemented. Unlike LSTMs which process each sequence element in turn, the Transformer processes all elements at the same time by using an attention mechanism to build direct connections between individual elements. 
