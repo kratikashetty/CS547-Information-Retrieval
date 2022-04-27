@@ -100,4 +100,5 @@ Here is the link for the [repository](https://github.com/kratikashetty/CS547-Inf
 
 ### References
 1. https://www.analyticsvidhya.com/blog/2021/12/googles-bert/
-2. https://medium.com/institute-for-applied-computational-science/automated-essay-grading-7bc6cb8ac0b5
+2. https://towardsdatascience.com/understanding-bert-bidirectional-encoder-representations-from-transformers-45ee6cd51eef
+3. https://towardsdatascience.com/how-to-use-bert-from-the-hugging-face-transformer-library-d373a22b0209
