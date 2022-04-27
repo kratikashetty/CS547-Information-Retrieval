@@ -52,26 +52,17 @@ Since we are using a Dataset from a kaggle competition, we were unable to to get
 
 ### Embedding + LSTM
 
-XGBoost was first considered for modeling the training data since it can be used for regression predictive modeling. We also used repeated 5-fold cross-validation to evaluate and pressure was found out by averaging pressure across multiple runs. After the training data fit into the XGBoost model, the result is generated shown below:
-
-<p align="middle">
-  <img src="Images/xgboost.png" width="450" />
-</p>
-
-**Feature Importance** Feature Importance provides a score that indicates how useful or valuable each feature was in the construction of the boosted decision trees within the model. Here, the features are automatically named according to their index in the input array. Columns id, time_step and u_out have the top three importance score. 
-
-<p align="middle">
-  <img src="Images/feature_importance.png" width="450" />
- <img src="Images/xgboost_index.png" width="450" />
-</p>
-
-Here top 3 features fO, f2, f5 corresponds to id, time_step and u_out.
 
 ### BERT Model
 
-A Transformer based BERT model followed by two fully connected feed forward layers and a final dense layer was implemented. Unlike LSTMs which process each sequence element in turn, the Transformer processes all elements at the same time by using an attention mechanism to build direct connections between individual elements. 
+A Transformer based BERT base model followed by two fully connected feed forward layers and a final dense layer was implemented. Unlike LSTMs which process each sequence element in turn, the Transformer processes all elements at the same time by using an attention mechanism to build direct connections between individual elements. 
 
-Raw essay texts are transformed into three embeddings using a pre-trained BERT text tokenizer.
+Raw essay texts are transformed into three embeddings using a pre-trained BERT text tokenizer. It converts raw text into following embeddings - 
+Position Embeddings: BERT learns the position/location of words in a sentence via positional embeddings. This embedding helps BERT to capture the ‘order’ or ‘sequence’ information of a given sentence.
+
+Segment Embeddings: (Optional Embedding) BERT takes sentence pairs as inputs for (Question-Answering) tasks. BERT learns a unique embedding for the first and the second sentences to help the model differentiate between them.
+
+Token Embeddings: Token embedding contains all the information of input text. It is an integer number specified for each unique word token.
 
 A language model which is bidirectionally trained can have a deeper sense of language context and flow than single-direction language models.
 
