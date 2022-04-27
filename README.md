@@ -69,7 +69,7 @@ Here top 3 features fO, f2, f5 corresponds to id, time_step and u_out.
 
 ### BERT Model
 
-A Transformer based BERT model followed by two fully connected feed forward layers and 
+A Transformer based BERT model followed by two fully connected feed forward layers and a final dense layer was implemented.
 A language model which is bidirectionally trained can have a deeper sense of language context and flow than single-direction language models.
 
 5-fold cross validation was performed and avaerage pressure was calculated after 5 runs.
