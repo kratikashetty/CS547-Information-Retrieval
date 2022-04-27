@@ -78,7 +78,7 @@ Position Embeddings, Segment Embeddings and Token Embeddings. These embedding te
 Following Quadratic Weighted Kappa was obtained - 
 
 <p align="middle">
-  <img src="Images/results.jpeg" width="450" />
+  <img src="Images/results.png" width="450" />
 </p>
 
 
