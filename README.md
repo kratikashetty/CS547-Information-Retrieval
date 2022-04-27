@@ -102,7 +102,7 @@ Following Mean Absolute Error, R-squared and Mean Squared Error were obtained -
 
 ## GitHub Repository -  
 
-Here is the link for the [repository](https://github.com/anamika1302/CS539-Ventilator-Pressure-Prediction) 
+Here is the link for the [repository](https://github.com/kratikashetty/CS547-Information-Retrieval) 
 
 ### References
 1. https://machinelearningmastery.com/xgboost-for-time-series-forecasting/
