@@ -85,7 +85,9 @@ Following Quadratic Weighted Kappa was obtained -
 ## Conclusion
 
 1. LSTM model performed better than the BERT model. 
-2. Quadratic Weighted Kappa of LSTM was 
+2. Quadratic Weighted Kappa of LSTM was higher than that of BERT Model. The higher the kappa value, the better model’s prediction aligns with human-graded scores
+3. Further optimizations in our hyperparameters or architecture in BERT Model could lead better results.
+4. Bert was trained for 100 epochs, training for higher numbers of epochs could also lead to better results.
 
 | | LSTM | Bert |
 |-------|--------|--------|
