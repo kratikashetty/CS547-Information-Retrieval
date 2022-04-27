@@ -78,21 +78,19 @@ Position Embeddings, Segment Embeddings and Token Embeddings. These embedding te
 Following Quadratic Weighted Kappa was obtained - 
 
 <p align="middle">
-  <img src="Images/lstm_error.jpeg" width="450" />
+  <img src="Images/results.jpeg" width="450" />
 </p>
 
 
 ## Conclusion
 
-1. Bi-LSTM Model performed  better than Xgboost.
-2. MAE and MSE of Bi-LSTM model was better than that of Xgboost
+1. LSTM model performed better than the BERT model. 
+2. Quadratic Weighted Kappa of LSTM was 
 
-| | Bi-LSTM |XGBoost|
+| | LSTM | Bert |
 |-------|--------|--------|
-| Quadratic Weighted Kappa | 0.1403 | 0.4471 |
-| Quadratic Weighted Kappa | 0.1903 | 0.387 |
+| Quadratic Weighted Kappa | 0.94 | 0.6615 |
 
-4. Good scores were obtained with 3 to 5 layers Bi-LSTM layers.
 
 ## GitHub Repository -  
 
