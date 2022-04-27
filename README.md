@@ -72,7 +72,7 @@ Position Embeddings, Segment Embeddings and Token Embeddings. These embedding te
 
 #### Model Design
 <p align="middle">
-  <img src="Images/flowchart.png" width="450" />
+  <img src="Images/flowchart.png" />
 </p>
 
 Following Quadratic Weighted Kappa was obtained - 
