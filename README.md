@@ -58,11 +58,7 @@ Since we are using a Dataset from a kaggle competition, we were unable to to get
 A Transformer based BERT base model followed by two fully connected feed forward layers and a final dense layer was implemented. Unlike LSTMs which process each sequence element in turn, the Transformer processes all elements at the same time by using an attention mechanism to build direct connections between individual elements. 
 
 Raw essay texts are transformed into three embeddings using a pre-trained BERT text tokenizer. It converts raw text into following embeddings - 
-Position Embeddings: BERT learns the position/location of words in a sentence via positional embeddings. This embedding helps BERT to capture the ‘order’ or ‘sequence’ information of a given sentence.
-
-Segment Embeddings: (Optional Embedding) BERT takes sentence pairs as inputs for (Question-Answering) tasks. BERT learns a unique embedding for the first and the second sentences to help the model differentiate between them.
-
-Token Embeddings: Token embedding contains all the information of input text. It is an integer number specified for each unique word token.
+Position Embeddings, Segment Embeddings and Token Embeddings.
 
 A language model which is bidirectionally trained can have a deeper sense of language context and flow than single-direction language models.
 
