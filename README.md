@@ -65,7 +65,7 @@ Position Embeddings, Segment Embeddings and Token Embeddings. These embedding te
   <img src="Images/flowchart.png" width="450" />
 </p>
 
-Following Mean Absolute Error, R-squared and Mean Squared Error were obtained - 
+Following Quadratic Weighted Kappa was obtained - 
 
 <p align="middle">
   <img src="Images/lstm_error.jpeg" width="450" />
@@ -79,8 +79,8 @@ Following Mean Absolute Error, R-squared and Mean Squared Error were obtained -
 
 | | Bi-LSTM |XGBoost|
 |-------|--------|--------|
-| Mean Squared Error | 0.1403 | 0.4471 |
-| Mean Absolute Error | 0.1903 | 0.387 |
+| Quadratic Weighted Kappa | 0.1403 | 0.4471 |
+| Quadratic Weighted Kappa | 0.1903 | 0.387 |
 
 4. Good scores were obtained with 3 to 5 layers Bi-LSTM layers.
 
@@ -89,7 +89,5 @@ Following Mean Absolute Error, R-squared and Mean Squared Error were obtained -
 Here is the link for the [repository](https://github.com/kratikashetty/CS547-Information-Retrieval) 
 
 ### References
-1. https://machinelearningmastery.com/xgboost-for-time-series-forecasting/
-2. https://www.kaggle.com/theoviel/deep-learning-starter-simple-lstm 
-3. https://medium.com/geekculture/10-hyperparameters-to-keep-an-eye-on-for-your-lstm-model-and-other-tips-f0ff5b63fcd4
-4. https://www.kaggle.com/ranjeetshrivastav/ventilator-pressure-prediction-xgboost/notebook
+1. https://www.analyticsvidhya.com/blog/2021/12/googles-bert/
+2. https://medium.com/institute-for-applied-computational-science/automated-essay-grading-7bc6cb8ac0b5
