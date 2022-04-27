@@ -51,7 +51,10 @@ Since we are using a Dataset from a kaggle competition, we were unable to to get
 
 
 ### Embedding + LSTM
-
+The LSTM method utilizes Word2Vec to convert the essays into word embeddings. These vectors are then sent through an LSTM-based model which assigns it a final score. The model summary can be seen below:
+<p align="middle">
+  <img src="LSTM/Screenshots/Model Summary.png" width="450" /> 
+</p>
 
 ### BERT Model
 
