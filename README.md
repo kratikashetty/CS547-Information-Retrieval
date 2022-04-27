@@ -58,12 +58,12 @@ Since we are using a Dataset from a kaggle competition, we were unable to to get
 A Transformer based BERT base model followed by two fully connected feed forward layers and a final dense layer was implemented. Unlike LSTMs which process each sequence element in turn, the Transformer processes all elements at the same time by using an attention mechanism to build direct connections between individual elements. 
 
 Raw essay texts are transformed into three embeddings using a pre-trained BERT text tokenizer. It converts raw text into following embeddings - 
-Position Embeddings, Segment Embeddings and Token Embeddings. These embedding tensors are then passed to pretrained encoder of BERT model. The encoded output is then passed on to 3 Fully Connected feedforward layers each with 1024,512 and 1 neurons. 
+Position Embeddings, Segment Embeddings and Token Embeddings. These embedding tensors are then passed to pretrained encoder of BERT model. The encoded output is then passed on to 3 Fully Connected feedforward layers each with 1024, 512 and 1 neurons. Final output layer has a sigmoid activation which outputs a value between 0 and 1.
 
-
-Model parameters - 
- * Bi-LSTM - 4 Layers
- * 2 Dense Layers in the output layer with ReLu activation
+#### Model Design
+<p align="middle">
+  <img src="Images/flowchart.png" width="450" />
+</p>
 
 Following Mean Absolute Error, R-squared and Mean Squared Error were obtained - 
 
