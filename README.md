@@ -72,20 +72,22 @@ Position Embeddings, Segment Embeddings and Token Embeddings. These embedding te
 
 #### Model Design
 <p align="middle">
-  <img src="Images/flowchart.png" width="450" />
+  <img src="Images/flowchart.png" />
 </p>
 
 Following Quadratic Weighted Kappa was obtained - 
 
 <p align="middle">
-  <img src="Images/results.jpeg" width="450" />
+  <img src="Images/results.png" />
 </p>
 
 
 ## Conclusion
 
 1. LSTM model performed better than the BERT model. 
-2. Quadratic Weighted Kappa of LSTM was 
+2. Quadratic Weighted Kappa of LSTM was higher than that of BERT Model. The higher the kappa value, the better model’s prediction aligns with human-graded scores
+3. Further optimizations in our hyperparameters or architecture in BERT Model could lead better results.
+4. Bert was trained for 100 epochs, training for higher numbers of epochs could also lead to better results.
 
 | | LSTM | Bert |
 |-------|--------|--------|
@@ -98,4 +100,5 @@ Here is the link for the [repository](https://github.com/kratikashetty/CS547-Inf
 
 ### References
 1. https://www.analyticsvidhya.com/blog/2021/12/googles-bert/
-2. https://medium.com/institute-for-applied-computational-science/automated-essay-grading-7bc6cb8ac0b5
+2. https://towardsdatascience.com/understanding-bert-bidirectional-encoder-representations-from-transformers-45ee6cd51eef
+3. https://towardsdatascience.com/how-to-use-bert-from-the-hugging-face-transformer-library-d373a22b0209
